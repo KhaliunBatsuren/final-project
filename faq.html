@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GBS FAQ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">GBS Survival Guide</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About GBS</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="wdc.html">Presentation</a></li>
+      </ul>
+    </nav>
+
+    <div class="container py-5">
+      <h1 class="fw-bold mb-4">Frequently Asked Questions</h1>
+
+      <div class="accordion" id="faqAcc">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              data-bs-toggle="collapse"
+              data-bs-target="#q1"
+            >
+              Where is the main office?
+            </button>
+          </h2>
+          <div
+            id="q1"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#faqAcc"
+          >
+            <div class="accordion-body">
+              The main office is near the front entrance on the east side of the
+              building.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#q2"
+            >
+              How early does the cafeteria open?
+            </button>
+          </h2>
+          <div
+            id="q2"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAcc"
+          >
+            <div class="accordion-body">
+              The cafeteria opens around 7:00 AM for breakfast.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#q3"
+            >
+              What if I get lost?
+            </button>
+          </h2>
+          <div
+            id="q3"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAcc"
+          >
+            <div class="accordion-body">
+              Ask any teacher or student—people are friendly and used to helping
+              freshmen.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>© Glenbrook South Survival Guide 2025</footer>
+  </body>
+</html>
